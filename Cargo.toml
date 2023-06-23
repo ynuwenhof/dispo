@@ -10,3 +10,8 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 fnv = "1.0.7"
 twox-hash = "1.6.3"
+
+[build-dependencies]
+fnv = "1.0.7"
+twox-hash = "1.6.3"
+
