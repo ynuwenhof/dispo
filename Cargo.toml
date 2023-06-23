@@ -20,3 +20,7 @@ criterion = "0.5.1"
 bitvec = "1.0.1"
 fnv = "1.0.7"
 twox-hash = "1.6.3"
+
+[[bench]]
+name = "dispo"
+harness = false
