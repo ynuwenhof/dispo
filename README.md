@@ -9,14 +9,10 @@ A disposable email checker utilizing a [Bloom filter](https://en.wikipedia.org/w
 
 ## Usage
 
-`Cargo.toml`:
-
 ```toml
 [dependencies]
 toml = "0.1.0"
 ```
-
-`main.rs`:
 
 ```rust
 fn main() {
