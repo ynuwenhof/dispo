@@ -2,12 +2,21 @@
 
 A disposable email checker utilizing a [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter).
 
+* Lightweight
+* Probabilistic
+* Blazingly fast 🚀
+* Backed by [mailchecker's](https://github.com/FGRibreau/mailchecker) email blacklist
+
 ## Usage
+
+`Cargo.toml`:
 
 ```toml
 [dependencies]
 toml = "0.1.0"
 ```
+
+`main.rs`:
 
 ```rust
 fn main() {
