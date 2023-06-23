@@ -8,10 +8,12 @@ repository = "https://github.com/ynuwenhof/dispo"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+bitvec = "1.0.1"
 fnv = "1.0.7"
 twox-hash = "1.6.3"
 
 [build-dependencies]
+bitvec = "1.0.1"
 fnv = "1.0.7"
 twox-hash = "1.6.3"
 
