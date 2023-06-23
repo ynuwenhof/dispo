@@ -14,7 +14,7 @@ A disposable email checker utilizing a [Bloom filter](https://en.wikipedia.org/w
 
 ```toml
 [dependencies]
-toml = "0.1.0"
+dispo = "0.1.0"
 ```
 
 ```rust
