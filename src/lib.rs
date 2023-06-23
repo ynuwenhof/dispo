@@ -1,5 +1,27 @@
-use std::str::FromStr;
+//! A disposable email checker utilizing a [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter).
+//!
+//! * Lightweight
+//! * Probabilistic
+//! * Blazingly fast 🚀
+//! * Backed by [mailchecker's](https://github.com/FGRibreau/mailchecker) email blacklist
+//!
+//! # Usage
+//!
+//! ```toml
+//! [dependencies]
+//! toml = "0.1.0"
+//! ```
+//!
+//! ```rust
+//! let x = dispo::is_valid("alice@example.com");
+//! assert_eq!(x, true);
+//!
+//! let x = dispo::is_valid_domain("tempmail.de");
+//! assert_eq!(x, false);
+//! ```
+
 use email_address::EmailAddress;
+use std::str::FromStr;
 
 mod bloom;
 
