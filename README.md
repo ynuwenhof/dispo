@@ -10,6 +10,10 @@ A disposable email checker utilizing a [Bloom filter](https://en.wikipedia.org/w
 * Blazingly fast 🚀
 * Backed by [mailchecker's](https://github.com/FGRibreau/mailchecker) email blacklist
 
+> :warning: Due to the nature of [probabilistic data structures](https://en.wikipedia.org/wiki/Bloom_filter),
+> [`is_valid`](https://docs.rs/dispo/latest/dispo/fn.is_valid.html) or [`is_valid_domain`](https://docs.rs/dispo/latest/dispo/fn.is_valid_domain.html) might return `false`
+> even though a domain is not on the blacklist.
+
 ## Usage
 
 ```toml
