@@ -3,10 +3,13 @@ name = "dispo"
 version = "0.1.0"
 edition = "2021"
 description = "Disposable email checker utilizing a Bloom filter"
+documentation = "https://docs.rs/dispo"
 readme = "README.md"
 homepage = "https://github.com/ynuwenhof/dispo"
 repository = "https://github.com/ynuwenhof/dispo"
 license = "MIT OR Apache-2.0"
+keywords = ["email", "bloom", "probabilistic"]
+categories = ["email"]
 
 [dependencies]
 bitvec = "1.0.1"
