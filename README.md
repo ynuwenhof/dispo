@@ -1,5 +1,8 @@
 # Dispo
 
+[![crates.io](https://img.shields.io/crates/v/dispo.svg)](https://crates.io/crates/dispo)
+[![docs.rs](https://docs.rs/dispo/badge.svg)](https://docs.rs/dispo)
+
 A disposable email checker utilizing a [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter).
 
 * Lightweight
