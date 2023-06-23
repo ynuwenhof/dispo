@@ -9,7 +9,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! toml = "0.1.0"
+//! dispo = "0.1.0"
 //! ```
 //!
 //! ```rust
