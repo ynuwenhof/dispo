@@ -2,6 +2,7 @@
 name = "dispo"
 version = "0.1.0"
 edition = "2021"
+description = "Disposable email checker utilizing a Bloom filter"
 readme = "README.md"
 homepage = "https://github.com/ynuwenhof/dispo"
 repository = "https://github.com/ynuwenhof/dispo"
