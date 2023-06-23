@@ -2,6 +2,7 @@
 
 [![crates.io](https://img.shields.io/crates/v/dispo.svg)](https://crates.io/crates/dispo)
 [![docs.rs](https://docs.rs/dispo/badge.svg)](https://docs.rs/dispo)
+[![License](https://img.shields.io/crates/l/dispo.svg)](https://github.com/ynuwenhof/dispo/blob/main/LICENSE-MIT)
 
 A disposable email checker utilizing a [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter).
 
